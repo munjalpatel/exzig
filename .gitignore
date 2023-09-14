@@ -24,3 +24,11 @@ exzig-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+*.h
+*.so
+*.zig
+
+test_greeter
+
+.elixir_ls

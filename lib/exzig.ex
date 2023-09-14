@@ -1,18 +1,5 @@
 defmodule Exzig do
-  @moduledoc """
-  Documentation for `Exzig`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Exzig.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def greet(name) do
+    Greeter.greet(name)
   end
 end
